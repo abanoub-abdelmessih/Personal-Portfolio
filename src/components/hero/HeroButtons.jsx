@@ -13,7 +13,7 @@ export const HeroButtons = () => {
   ];
 
   return (
-    <div className="flex flex-col sm:flex-row sm:items-center gap-6 md:gap-0 my-4 md:my-5">
+    <div className="flex flex-col sm:flex-row sm:items-center gap-6 md:gap-0 my-2">
       <div className="flex gap-4 justify-center sm:justify-start md:border-r border-r-zinc-300 md:pr-5 md:mr-5">
         {theIcons.map(({ icon, href }, index) => (
           <a
