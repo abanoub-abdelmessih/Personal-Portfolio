@@ -12,8 +12,8 @@ export const AboutDetails = () => {
       <div>
         <h3 className="font-semibold text-gray-700">Education</h3>
         <ul className="list-disc list-inside space-y-1 mt-2">
-          <li>Bachelor's Degree in Sociology – Faculty of Arts, 2024</li>
           <li>Front-End Development Diploma – Route Academy, 2024</li>
+          <li>Bachelor's Degree in Sociology – Faculty of Arts, 2024</li>
         </ul>
       </div>
     </div>
