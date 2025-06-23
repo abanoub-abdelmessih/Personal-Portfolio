@@ -3,9 +3,11 @@ import { AboutDetails } from "./AboutDetails";
 
 export const AboutSection = () => {
   return (
-    <section className="mt-5 md:mt-10 p-4 md:p-8 border border-gray-300 rounded-3xl shadow-lg/30">
-      <Heading title={"About Me"} />
-      <AboutDetails />
+    <section className="mt-8 md:mt-16">
+      <div className="max-w-4xl mx-auto">
+        <Heading title={"About Me"} />
+        <AboutDetails />
+      </div>
     </section>
   );
 };
