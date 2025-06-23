@@ -6,7 +6,7 @@ export const HeroTypingAnimation = () => {
       sequence={[
         "Front-End Developer",
         2500,
-        "React & Next.js Specialist",
+        "React & Next Specialist",
         2500,
         "UI/UX Focused Engineer",
         2500,
