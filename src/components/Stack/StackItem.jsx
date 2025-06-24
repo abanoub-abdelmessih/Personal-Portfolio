@@ -1,12 +1,12 @@
 import { StackIcon } from "./StackIcon";
-import { StackToolTip } from "./StackToolTip";
+import { StackName } from "./StackName";
 
 export const StackItem = ({ name, icon }) => {
   return (
-    <div className="group relative text-black/70 hover:text-black duration-300">
+    <div className="group flex items-center gap-2 p-3 border border-gray-200 hover:border-gray-400 hover:translate-x-2 transition-all duration-300 rounded">
       <StackIcon icon={icon} />
 
-      <StackToolTip name={name} />
+      <StackName name={name} />
     </div>
   );
 };
