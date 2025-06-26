@@ -1,36 +1,12 @@
 import { CgArrowTopRight } from "react-icons/cg";
-import { FaPhone } from "react-icons/fa";
-import { SiGithub, SiGmail, SiLinkedin } from "react-icons/si";
-
-const ICONS = [
-  {
-    icon: <SiLinkedin />,
-    href: "https://www.linkedin.com/in/abanoub-abd-elmessih/",
-    label: "LinkedIn",
-  },
-  {
-    icon: <SiGithub />,
-    href: "https://github.com/Abanoub-Abd-Elmessih",
-    label: "GitHub",
-  },
-  {
-    icon: <SiGmail />,
-    href: "mailto:abanoubabdelmessih110@gmail.com",
-    label: "Gmail",
-  },
-  {
-    icon: <FaPhone />,
-    href: "tel:+201559566765",
-    label: "Phone",
-  },
-];
+import { SocialLinks } from "../../constants/SocialLinks";
 
 export const HeroButtons = () => {
   return (
     <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6 my-5">
       {/* Social Icons */}
       <div className="flex gap-1.5 p-2 border border-gray-200 rounded-full bg-gray-100">
-        {ICONS.map(({ icon, href, label }, index) => (
+        {SocialLinks.map(({ icon, href, label }, index) => (
           <a
             key={index}
             href={href}
