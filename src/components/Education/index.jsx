@@ -1,12 +1,10 @@
-import { AboutDescription } from "./AboutDescription";
-import { AboutSectionTitle } from "./AboutSectionTitle";
+import { SectionTitle } from "../Heading/SectionTitle";
 import { EducationItem } from "./EducationItem";
 
-export const AboutDetails = () => {
+export const EducationSection = () => {
   return (
     <>
-      <AboutDescription />
-      <AboutSectionTitle title="Education" />
+      <SectionTitle title="Education" />
       <EducationItem
         title="Front-End & Cross Platform Mobile Development"
         year="2025"

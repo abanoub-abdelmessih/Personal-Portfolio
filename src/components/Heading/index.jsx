@@ -2,7 +2,7 @@ import { HeadingBall } from "./HeadingBall";
 
 export const Heading = ({ title }) => {
   return (
-    <div className="mb-8 md:mb-12">
+    <div className="mb-5 md:mb-8">
       <div className="flex items-center gap-6">
         <HeadingBall />
         <h2 className="text-2xl md:text-4xl font-light tracking-wider uppercase text-gray-800">
@@ -12,7 +12,7 @@ export const Heading = ({ title }) => {
       </div>
 
       {/* underline accent */}
-      <div className="w-12 h-0.5 bg-gray-300 mt-4 ml-9"></div>
+      <div className="w-12 h-0.5 bg-gray-300 mt-3 ml-9"></div>
     </div>
   );
 };

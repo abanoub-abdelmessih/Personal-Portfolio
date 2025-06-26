@@ -1,4 +1,4 @@
-export const AboutSectionTitle = ({ title }) => {
+export const SectionTitle = ({ title }) => {
   return (
     <div className="flex items-center gap-4 my-8">
       <div className="w-2 h-2 bg-gray-400 rounded-full"></div>

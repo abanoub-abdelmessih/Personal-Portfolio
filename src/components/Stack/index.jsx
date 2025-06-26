@@ -1,5 +1,4 @@
 import {
-  FaAngular,
   FaBootstrap,
   FaFigma,
   FaGitAlt,
@@ -8,6 +7,7 @@ import {
   FaReact,
 } from "react-icons/fa";
 import {
+  SiFirebase,
   SiFramer,
   SiI18Next,
   SiNextdotjs,
@@ -25,7 +25,6 @@ export const StackSection = () => {
   const technologies = [
     { icon: <FaReact />, name: "React" },
     { icon: <SiNextdotjs />, name: "Next.js" },
-    { icon: <FaAngular />, name: "Angular" },
     { icon: <FaJs />, name: "JavaScript" },
     { icon: <SiTypescript />, name: "TypeScript" },
     { icon: <SiTailwindcss />, name: "Tailwind CSS" },
@@ -36,6 +35,7 @@ export const StackSection = () => {
     { icon: <SiI18Next />, name: "react-i18next" },
     { icon: <FaFigma />, name: "Figma" },
     { icon: <SiZod />, name: "Zod" },
+    { icon: <SiFirebase />, name: "Firebase" },
     { icon: <FaGitAlt />, name: "Git" },
     { icon: <FaGithub />, name: "GitHub" },
     { icon: <SiPostman />, name: "Post Man" },
