@@ -6,7 +6,9 @@ export const HeroImage = () => {
         <img
           src="/images/abanoub.jpg"
           alt="Abanoub profile photo"
-          className="rounded-full w-48 h-48 md:w-56 md:h-56 object-cover object-top grayscale hover:grayscale-0 duration-300"
+          className="rounded-full w-48 h-48 md:w-56 md:h-56 grayscale hover:grayscale-0 duration-300"
+          width={224}
+          height={224}
         />
       </picture>
     </div>
