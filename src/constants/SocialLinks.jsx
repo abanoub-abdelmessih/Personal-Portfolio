@@ -9,7 +9,7 @@ export const SocialLinks = [
   },
   {
     icon: <SiGithub />,
-    href: "https://github.com/Abanoub-Abd-Elmessih",
+    href: "https://github.com/abanoub-abdelmessih",
     label: "GitHub",
   },
   {
