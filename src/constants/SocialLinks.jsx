@@ -4,7 +4,7 @@ import { FaPhone } from "react-icons/fa";
 export const SocialLinks = [
   {
     icon: <SiLinkedin />,
-    href: "https://www.linkedin.com/in/abanoub-abd-elmessih/",
+    href: "https://www.linkedin.com/in/abanoub-abdelmessih/",
     label: "LinkedIn",
   },
   {
