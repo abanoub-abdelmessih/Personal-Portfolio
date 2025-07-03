@@ -42,16 +42,14 @@ export const StackSection = () => {
   ];
 
   return (
-    <section className="mt-8 md:mt-16">
-      <div className="max-w-4xl mx-auto">
-        <Heading title={"Tech Stack"} />
+    <section className="max-w-4xl mx-auto mt-8 md:mt-16">
+      <Heading title={"Tech Stack"} />
 
-        <div className="border-l-2 border-gray-200 pl-4 md:pl-6 py-2">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 select-none">
-            {technologies.map(({ icon, name }) => (
-              <StackItem key={name} icon={icon} name={name} />
-            ))}
-          </div>
+      <div className="border-l-2 border-gray-200 pl-4 md:pl-6 py-2">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 select-none">
+          {technologies.map(({ icon, name }) => (
+            <StackItem key={name} icon={icon} name={name} />
+          ))}
         </div>
       </div>
     </section>

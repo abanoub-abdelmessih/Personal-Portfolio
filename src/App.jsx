@@ -1,5 +1,6 @@
 import { AboutSection } from "./components/about";
 import { ContactSection } from "./components/Contact";
+import { Experience } from "./components/Experience";
 import { Footer } from "./components/footer";
 import { HeroSection } from "./components/hero";
 import { StackSection } from "./components/Stack";
@@ -11,6 +12,7 @@ const App = () => {
         <HeroSection />
         <AboutSection />
         <StackSection />
+        <Experience />
         <ContactSection />
       </main>
       <Footer />
