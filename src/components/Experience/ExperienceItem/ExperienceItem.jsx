@@ -12,7 +12,7 @@ export const ExperienceItem = ({
   achievements,
 }) => {
   return (
-    <div className="hover:translate-x-3 transition-all duration-300 mb-8 last:mb-0 border-l-2 border-gray-200 pl-4 md:pl-6 py-3 select-none group">
+    <div className="mb-8 last:mb-0 border-l-2 border-gray-200 pl-4 md:pl-6 py-3 select-none group">
       <ExperienceItemHeader
         company={company}
         level={level}
