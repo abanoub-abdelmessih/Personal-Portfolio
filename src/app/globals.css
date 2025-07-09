@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@custom-variant hover (&:hover);
+
+@theme inline {
+  --font-inter: var(--font-inter);
+}

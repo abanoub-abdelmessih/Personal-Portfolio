@@ -1,6 +1,0 @@
-@import "tailwindcss";
-@custom-variant hover (&:hover);
-
-@theme {
-  --font-Inter: Inter, "sans-serif";
-}
