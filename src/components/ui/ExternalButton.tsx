@@ -15,12 +15,13 @@ export const ExternalButton = ({
   icon,
   href,
   size = "md",
+  newTab = true,
 }: ExternalButtonTypes) => {
   return (
     <Link
       href={href}
-      target="_blank"
-      rel="noopener noreferrer"
+      target={newTab ? "_blank" : "_self"}
+      rel={newTab ? "noopener noreferrer" : undefined}
       className={`group inline-flex items-center gap-3 bg-gray-900 hover:bg-gray-800 text-white font-light rounded-full transition-all duration-300 hover:scale-105 ${sizeClasses[size]}`}
     >
       <span className="tracking-wide">{label}</span>
