@@ -85,7 +85,7 @@ export function ExperienceItem({
   experience: ExperienceItemType;
 }) {
   return (
-    <div className="space-y-4 py-4 border-t last:border-b">
+    <div className="space-y-4 py-4 first:pt-0 last:pb-0 first:border-t-0 border-t ">
       <div className="not-prose flex items-center gap-3">
         <div
           className="flex size-6 shrink-0 items-center justify-center"
@@ -106,7 +106,7 @@ export function ExperienceItem({
           )}
         </div>
 
-        <h3 className="text-base leading-snug font-medium">
+        <h3 className="text-lg leading-snug font-medium">
           {experience.companyName}
         </h3>
 
@@ -147,7 +147,7 @@ export function ExperiencePositionItem({
               <ExperienceIcon className="size-4" />
             </div>
 
-            <h4 className="flex-1 text-base font-medium text-balance">
+            <h4 className="flex-1 text-sm lg:text-base font-medium text-balance">
               {position.title}
             </h4>
 
