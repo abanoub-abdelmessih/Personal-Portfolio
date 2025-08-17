@@ -70,7 +70,7 @@ export const WORK_EXPERIENCE: ExperienceItemType[] = [
   {
     id: "1",
     companyName: "Information Technology Institute (ITI)",
-    companyLogo: "/iti.jpeg",
+    companyLogo: "/iti.jpg",
     isCurrentEmployer: true,
     positions: [
       {

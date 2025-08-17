@@ -7,7 +7,7 @@ export const ContactSection = () => {
     <section className="space-y-5 md:space-y-8">
       <Heading title="Contact" />
       <FreelanceSection />
-      <GetInTouchSection />
+      {/* <GetInTouchSection /> */}
     </section>
   );
 };

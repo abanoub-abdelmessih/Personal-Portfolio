@@ -88,15 +88,15 @@ export function ExperienceItem({
     <div className="space-y-4 py-4 first:pt-0 last:pb-0 first:border-t-0 border-t ">
       <div className="not-prose flex items-center gap-3">
         <div
-          className="flex size-6 shrink-0 items-center justify-center"
+          className="flex size-6 shrink-0 items-center justify-center p-1 rounded-lg bg-muted text-muted-foreground"
           aria-hidden
         >
           {experience.companyLogo ? (
             <Image
               src={experience.companyLogo}
               alt={experience.companyName}
-              width={20}
-              height={20}
+              width={24}
+              height={24}
               quality={100}
               className="rounded-full"
               unoptimized
@@ -208,7 +208,7 @@ function Prose({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       className={cn(
-        "prose prose-sm max-w-none font-mono text-foreground prose-zinc dark:prose-invert",
+        "prose prose-sm max-w-none font-inter text-foreground prose-zinc dark:prose-invert",
         "prose-a:font-medium prose-a:break-words prose-a:text-foreground prose-a:underline prose-a:underline-offset-4",
         "prose-code:rounded-md prose-code:border prose-code:bg-muted/50 prose-code:px-[0.3rem] prose-code:py-[0.2rem] prose-code:text-sm prose-code:font-normal prose-code:before:content-none prose-code:after:content-none",
         className
@@ -222,7 +222,7 @@ function Skill({ className, ...props }: React.ComponentProps<"span">) {
   return (
     <span
       className={cn(
-        "inline-flex items-center rounded-lg border bg-muted/50 px-1.5 py-0.5 font-mono text-xs text-muted-foreground",
+        "inline-flex items-center rounded-lg border bg-muted/50 px-1.5 py-0.5 font-inter text-xs text-muted-foreground",
         className
       )}
       {...props}

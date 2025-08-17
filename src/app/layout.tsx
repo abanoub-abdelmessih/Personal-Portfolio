@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} antialiased font-inter`}>
-        <main className="max-w-screen-lg mx-auto md:py-28 py-10 space-y-16  px-5">
+        <main className="max-w-screen-lg mx-auto md:py-28 py-10 space-y-16 px-3">
           {children}
         </main>
         <FooterSection />

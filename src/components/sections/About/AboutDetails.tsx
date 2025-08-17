@@ -6,41 +6,45 @@ export const AboutDetails = () => {
     <>
       <LeftBorderContainer>
         <p className="text-lg md:text-xl leading-relaxed font-light tracking-wide">
-          I&apos;m a <span className="font-medium">Front-End Developer</span>{" "}
-          focused on delivering modern, scalable, and accessible web interfaces.
-          My core stack revolves around{" "}
-          <span className="font-medium">
-            React, Next.js, TypeScript, and Tailwind CSS
-          </span>
-          , and I&apos;m passionate about transforming complex ideas into clean,
-          performant, and maintainable UI systems.
+          Hello, World! I&apos;m Abanoub a Front-End Developer passionate about
+          building modern, scalable, and accessible web applications with clean
+          and user-friendly designs.
         </p>
 
         <Paragraph>
-          My development approach blends technical precision with a deep
-          understanding of design and user experience. I build component-driven
-          architectures, optimize performance with real-world constraints in
-          mind, and care about details that make interfaces not just functional
-          — but enjoyable.
+          I specialize in{" "}
+          <span className="font-medium">
+            React, Next.js, TypeScript, and Tailwind CSS
+          </span>
+          , creating component-driven interfaces that are fast, maintainable,
+          and optimized for real-world use. I enjoy turning complex ideas into
+          intuitive digital experiences.
         </Paragraph>
 
         <Paragraph>
-          I&apos;ve sharpened my skills through hands-on training at the{" "}
+          I sharpened my skills through hands-on training at the{" "}
           <span className="font-medium">
             Information Technology Institute (ITI)
           </span>
-          , where I worked in agile-based team environments, followed best
-          practices in code quality, and delivered projects aligned with real
-          business needs. This experience enhanced my ability to collaborate,
-          iterate fast, and deliver consistent value.
+          , where I worked in agile teams, followed best practices, and
+          delivered projects aligned with real business needs.
         </Paragraph>
 
         <Paragraph>
-          I&apos;m confident building complete UI layers from scratch,
-          integrating with APIs, managing application state, and handling
-          responsiveness, accessibility, and performance optimization. I write
-          thoughtful code, communicate clearly, and continuously seek to improve
-          both the product and the process behind it.
+          Beyond structured learning, I&apos;ve built personal projects like{" "}
+          <span className="font-medium">Anime Vault</span> (infinite scroll with
+          Next.js server components),
+          <span className="font-medium">ShopPix</span> (a full e-commerce app),
+          and
+          <span className="font-medium"> Linked Posts</span> (a social media
+          platform), which allowed me to explore real-world challenges in
+          performance, state management, and UX design.
+        </Paragraph>
+
+        <Paragraph>
+          Always curious and improving, I aim to craft software that is not just
+          functional but enjoyable to use. Let&apos;s connect and build
+          something great!
         </Paragraph>
       </LeftBorderContainer>
     </>
