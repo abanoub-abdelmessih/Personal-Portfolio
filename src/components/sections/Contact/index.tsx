@@ -1,6 +1,6 @@
 import { Heading } from "@/components/ui/Heading";
 import { FreelanceSection } from "./FreelanceSection";
-import { GetInTouchSection } from "./GetInTouchSection";
+// import { GetInTouchSection } from "./GetInTouchSection";
 
 export const ContactSection = () => {
   return (
