@@ -1,7 +1,16 @@
 "use client";
 
-import { ExternalButtonTypes } from "@/Types/ExternalButtonTypes";
 import Link from "next/link";
+import { cn } from "@/lib/utils";
+
+interface ExternalButtonTypes {
+  label: string;
+  icon?: React.ReactNode;
+  href: string;
+  newTab?: boolean;
+  size?: "xs" | "sm" | "md" | "lg";
+  className?: string;
+}
 
 const sizeClasses = {
   xs: "px-3 py-1.5 text-sm",
@@ -16,13 +25,18 @@ export const ExternalButton = ({
   href,
   size = "md",
   newTab = true,
+  className,
 }: ExternalButtonTypes) => {
   return (
     <Link
       href={href}
       target={newTab ? "_blank" : "_self"}
       rel={newTab ? "noopener noreferrer" : undefined}
-      className={`group inline-flex items-center gap-3 bg-gray-900 hover:bg-gray-800 text-white font-light rounded-full transition-all duration-300 hover:scale-105 ${sizeClasses[size]}`}
+      className={cn(
+        "group inline-flex items-center gap-3 rounded-full bg-gray-900 text-white font-light transition-all duration-300 hover:bg-gray-800 hover:scale-105",
+        sizeClasses[size],
+        className
+      )}
     >
       <span className="tracking-wide">{label}</span>
       {icon && (
