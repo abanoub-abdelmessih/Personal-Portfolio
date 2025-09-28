@@ -22,7 +22,7 @@ export default Hero;
 
 function HeroImage() {
   return (
-    <div className="border-2 border-border p-3 rounded-full shadow-sm/70">
+    <div className="border-2 border-zinc-700 p-3 rounded-full shadow-sm/70">
       <Image
         src="/abanoub.webp"
         alt="Abanoub profile photo"

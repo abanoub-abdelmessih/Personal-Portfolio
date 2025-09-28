@@ -1,3 +1,4 @@
+import { ExperienceItemType } from "@/types";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 // Contact Links
@@ -82,4 +83,73 @@ export const SkillsData = [
   // Testing
   "Jest",
   "React Testing Library",
+];
+
+// Experience
+export const WorkExperienceData: ExperienceItemType[] = [
+  // ITI
+  {
+    id: "iti",
+    companyName: "Information Technology Institute (ITI)",
+    // companyLogo: "https://via.placeholder.com/100x100.png?text=ITI",
+    isCurrentEmployer: true,
+    positions: [
+      {
+        id: "iti-frontend-trainee",
+        title: "Front-End & Cross-Platform Mobile Development Trainee",
+        employmentPeriod: "2025 — Present",
+        employmentType: "Training",
+        icon: "code",
+        description: `- Intensive training covering modern web and mobile development.
+- Built responsive web apps with React, Next.js, and TypeScript.
+- Learned cross-platform mobile development using React Native.
+- Practiced state management, performance optimization, and testing.
+- Collaborated in agile teams with Git/GitHub workflows.
+- Role: Project coordinator – organized team tasks and deadlines.`,
+        skills: [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "React Native",
+          "TailwindCSS",
+          "State Management (Redux / Context)",
+          "API Integration",
+          "Testing (Jest)",
+          "Git/GitHub",
+          "Agile / Scrum",
+        ],
+
+        isExpanded: true,
+      },
+    ],
+  },
+
+  // Route Academy
+  {
+    id: "route-academy",
+    companyName: "Route Academy",
+    // companyLogo: "https://via.placeholder.com/100x100.png?text=Route+Academy",
+    positions: [
+      {
+        id: "route-frontend-trainee",
+        title: "Front-End Developer Trainee",
+        employmentPeriod: "03.2023 — 08.2023",
+        employmentType: "Training",
+        icon: "code",
+        description: `- Learned HTML, CSS, JavaScript, Bootstrap, and React.
+- Built real-world projects to strengthen problem-solving skills.
+- Applied responsive design and modern UI/UX practices.`,
+        skills: [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Bootstrap",
+          "React",
+          "Tailwind CSS",
+          "Git/GitHub",
+        ],
+        isExpanded: false,
+      },
+    ],
+  },
 ];

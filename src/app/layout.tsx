@@ -50,7 +50,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${inter.variable} antialiased max-w-4xl mx-auto px-5 py-10 md:py-28 space-y-16 font-inter`}
+        className={`${inter.variable} antialiased max-w-4xl mx-auto px-3 py-10 md:py-28 space-y-16 font-inter`}
       >
         {children}
       </body>
