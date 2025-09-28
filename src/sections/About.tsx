@@ -4,10 +4,15 @@ import { AboutData } from "@/data/data";
 function About() {
   return (
     <section>
+      {/* About Title */}
       <Heading title="About Me" />
-      <p className="text-lg leading-relaxed text-gray-700 font-light tracking-wide text-balance">
-        {AboutData}
-      </p>
+
+      {/* About Content */}
+      <main>
+        <p className="text-lg leading-relaxed text-muted-foreground font-light tracking-wide text-balance">
+          {AboutData}
+        </p>
+      </main>
     </section>
   );
 }

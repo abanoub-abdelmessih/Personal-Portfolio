@@ -18,14 +18,15 @@ function Hero() {
     </header>
   );
 }
+export default Hero;
 
 function HeroImage() {
   return (
-    <div className="border border-gray-400 p-3 rounded-full shadow-sm/70">
+    <div className="border-2 border-border p-3 rounded-full shadow-sm/70">
       <Image
         src="/abanoub.webp"
         alt="Abanoub profile photo"
-        className="rounded-full w-48 h-48 md:w-56 md:h-56 grayscale hover:grayscale-0 duration-300"
+        className="rounded-full w-48 h-48 md:w-56 md:h-56"
         width={224}
         height={224}
         priority
@@ -37,7 +38,7 @@ function HeroImage() {
 function HeroText() {
   return (
     <div className="space-y-8 md:grow">
-      <h1 className="text-5xl md:text-6xl lg:text-7xl font-thin tracking-wider text-gray-800 mb-5 text-center md:text-start">
+      <h1 className="text-5xl md:text-6xl lg:text-7xl font-thin tracking-wider text-foreground/95 mb-5 text-center md:text-start">
         <span className="block mb-2 font-light uppercase">Abanoub</span>
         Abdelmessih
       </h1>
@@ -49,8 +50,8 @@ function HeroText() {
 function HeroTagline() {
   return (
     <div className="flex items-center justify-center md:justify-start gap-3">
-      <span className="w-3 h-3 bg-gray-400 rounded-full animate-pulse block"></span>
-      <p className="text-lg md:text-xl font-light tracking-wide uppercase text-gray-600">
+      <span className="w-3 h-3 bg-foreground/70 rounded-full animate-pulse block"></span>
+      <p className="text-lg md:text-xl font-light tracking-wide uppercase text-foreground/70">
         <TypeAnimation
           sequence={[
             "Front-End Developer",
@@ -69,7 +70,7 @@ function HeroTagline() {
           repeat={Infinity}
         />
       </p>
-      <div className="hidden lg:block flex-1 h-0.5 bg-gray-200" />
+      <div className="hidden lg:block flex-1 h-0.5 bg-foreground/70" />
     </div>
   );
 }
@@ -87,5 +88,3 @@ function HeroButtons() {
     </div>
   );
 }
-
-export default Hero;

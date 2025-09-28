@@ -4,12 +4,10 @@ type HeadingProps = {
 
 export default function Heading({ title }: HeadingProps) {
   return (
-    <header className="mb-8">
-      <div className="inline-flex items-center gap-3 border-l-4 border-foreground pl-4">
-        <h3 className="text-2xl md:text-3xl font-semibold text-foreground uppercase tracking-wide">
-          {title}
-        </h3>
-      </div>
+    <header className="inline-flex items-center gap-3 border-l-4 border-foreground/60 pl-4 mb-8">
+      <h3 className="text-2xl md:text-3xl font-semibold text-foreground/90 uppercase tracking-wide">
+        {title}
+      </h3>
     </header>
   );
 }
