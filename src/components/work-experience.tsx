@@ -153,7 +153,7 @@ export function ExperiencePositionItem({
               <ExperienceIcon className="size-4" />
             </div>
 
-            <h4 className="flex-1 text-sm md:text-base font-medium text-balance">
+            <h4 className="flex-1 text-sm md:text-base font-medium text-balance text-foreground/90">
               {position.title}
             </h4>
 

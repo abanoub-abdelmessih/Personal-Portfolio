@@ -50,6 +50,7 @@ export const SkillsData = [
 
   // Frameworks & Libraries
   "React",
+  "React Native",
   "Next.js",
   "Axios",
   "REST APIs",
@@ -91,7 +92,7 @@ export const WorkExperienceData: ExperienceItemType[] = [
   {
     id: "iti",
     companyName: "Information Technology Institute (ITI)",
-    // companyLogo: "https://via.placeholder.com/100x100.png?text=ITI",
+    companyLogo: "/iti.png",
     isCurrentEmployer: true,
     positions: [
       {
@@ -128,12 +129,12 @@ export const WorkExperienceData: ExperienceItemType[] = [
   {
     id: "route-academy",
     companyName: "Route Academy",
-    // companyLogo: "https://via.placeholder.com/100x100.png?text=Route+Academy",
+    companyLogo: "/route.png",
     positions: [
       {
         id: "route-frontend-trainee",
         title: "Front-End Developer Trainee",
-        employmentPeriod: "03.2023 — 08.2023",
+        employmentPeriod: "03.2024 — 08.2024",
         employmentType: "Training",
         icon: "code",
         description: `- Learned HTML, CSS, JavaScript, Bootstrap, and React.

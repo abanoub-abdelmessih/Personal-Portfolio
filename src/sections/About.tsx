@@ -9,7 +9,7 @@ function About() {
 
       {/* About Content */}
       <main>
-        <p className="text-lg leading-relaxed text-muted-foreground font-light tracking-wide text-balance">
+        <p className="text-lg leading-relaxed text-foreground/90 font-light tracking-wide text-balance">
           {AboutData}
         </p>
       </main>
