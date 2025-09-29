@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import About from "@/sections/About";
 import Experience from "@/sections/Experience";
 import Hero from "@/sections/Hero";
@@ -17,6 +18,9 @@ export default function Home() {
         <Experience />
         <Projects />
       </main>
+
+      {/* Footer */}
+      <Footer />
     </>
   );
 }
