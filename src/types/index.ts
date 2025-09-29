@@ -39,3 +39,13 @@ export type ExperienceItemType = {
   /** Indicates if this is the user's current employer */
   isCurrentEmployer?: boolean;
 };
+
+// Projects
+export type Project = {
+  title: string;
+  description: string[];
+  images: string[];
+  technologies: string[];
+  githubUrl?: string;
+  demoUrl?: string;
+};

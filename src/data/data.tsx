@@ -1,4 +1,4 @@
-import { ExperienceItemType } from "@/types";
+import { ExperienceItemType, Project } from "@/types";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 // Contact Links
@@ -92,7 +92,7 @@ export const WorkExperienceData: ExperienceItemType[] = [
   {
     id: "iti",
     companyName: "Information Technology Institute (ITI)",
-    companyLogo: "/iti.png",
+    companyLogo: "/assets/experience/iti.png",
     isCurrentEmployer: true,
     positions: [
       {
@@ -129,7 +129,7 @@ export const WorkExperienceData: ExperienceItemType[] = [
   {
     id: "route-academy",
     companyName: "Route Academy",
-    companyLogo: "/route.png",
+    companyLogo: "/assets/experience/route.png",
     positions: [
       {
         id: "route-frontend-trainee",
@@ -152,5 +152,65 @@ export const WorkExperienceData: ExperienceItemType[] = [
         isExpanded: false,
       },
     ],
+  },
+];
+
+// Projects
+export const ProjectsData: Project[] = [
+  // ShopPix Project
+  {
+    title: "Shoppix",
+    description: [
+      "Product browsing & detailed product pages",
+      "Cart management & checkout flow",
+      "Order tracking & management",
+      "Real-time data fetching with React Query",
+      "Responsive UI built with Tailwind CSS",
+    ],
+    images: [
+      "/assets/shoppix/shoppix.jpg",
+      "/assets/shoppix/shoppix_mac.jpg",
+      "/assets/shoppix/shoppix_phone.jpg",
+    ],
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "React Query",
+      "API",
+      "JavaScript",
+    ],
+    githubUrl: "https://github.com/abanoub-abdelmessih/shoppix",
+    demoUrl: "https://shop-pix.vercel.app/",
+  },
+  // Linked Posts Project
+  {
+    title: "Linked Posts",
+    description: [
+      "Create and share posts with others",
+      "Comment on posts and engage in discussions",
+      "Clean and responsive UI with Material UI",
+    ],
+    images: [
+      "/assets/linkedPosts/linkedPosts.png",
+      "/assets/linkedPosts/linkedPosts_profile.png",
+      "/assets/linkedPosts/linkedPosts_register.png",
+    ],
+    technologies: ["Next.js", "TypeScript", "MUI", "Redux", "Axios"],
+    githubUrl: "https://github.com/abanoub-abdelmessih/linked-posts",
+    demoUrl: "https://linked-posts-gilt.vercel.app",
+  },
+  // Weather App Project
+  {
+    title: "Sky Cast",
+    description: [
+      "Fetches real-time weather data from an external API",
+      "Displays current conditions and 3-day forecast",
+      "Responsive and user-friendly design",
+    ],
+    images: ["/assets/skycast.png"],
+    technologies: ["HTML", "CSS", "JavaScript"],
+    githubUrl: "https://github.com/abanoub-abdelmessih/Weather-App",
+    demoUrl: "https://abanoub-abdelmessih.github.io/Weather-App/",
   },
 ];
