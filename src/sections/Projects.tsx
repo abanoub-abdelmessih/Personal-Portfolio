@@ -10,7 +10,14 @@ function Projects() {
       {/* Header Section */}
 
       <div className="md:row-span-2 mb-5 md:mb-10">
-        <Heading title="Projects" className="mb-3" />
+        <Heading title="Projects" className="mb-3">
+          <Link
+            href="https://github.com/abanoub-abdelmessih?tab=repositories"
+            className="underline text-foreground/80"
+          >
+            See all projects
+          </Link>
+        </Heading>
         <p className="text-sm md:text-base">
           Here&apos;s some of my projects that I have worked on.
         </p>
