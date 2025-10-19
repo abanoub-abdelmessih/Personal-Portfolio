@@ -1,4 +1,5 @@
 import Contact from "@/components/Contact";
+import { DockComponent } from "@/components/DockComponent";
 import { Footer } from "@/components/Footer";
 import About from "@/sections/About";
 import Experience from "@/sections/Experience";
@@ -19,6 +20,7 @@ export default function Home() {
         <Experience />
         <Projects />
         <Contact />
+        <DockComponent />
       </main>
 
       {/* Footer */}

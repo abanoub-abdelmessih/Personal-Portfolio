@@ -3,7 +3,7 @@ import { SkillsData } from "@/data/data";
 
 function Skills() {
   return (
-    <section>
+    <section id="skills">
       {/* Skills Title */}
       <Heading title="Skills" />
 
