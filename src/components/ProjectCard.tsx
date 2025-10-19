@@ -30,7 +30,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
       : 0;
 
   return (
-    <div className="p-4 md:p-5 hover:bg-zinc-900/80 duration-300 border-b space-y-3 md:space-y-5 rounded-lg">
+    <div className="p-4 md:p-5 hover:bg-secondary/20 duration-300 border-b space-y-3 md:space-y-5 rounded-lg">
       {/* Header */}
       <div className="flex items-center justify-between">
         <h4 className="text-xl md:text-3xl font-medium text-foreground/90">

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Projects() {
   return (
-    <section>
+    <section id="projects">
       {/* Projects Header */}
       <Heading title="Projects">
         <Link

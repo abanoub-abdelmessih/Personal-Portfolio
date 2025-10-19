@@ -33,7 +33,7 @@ export const ExternalButton = ({
       target={newTab ? "_blank" : "_self"}
       rel={newTab ? "noopener noreferrer" : undefined}
       className={cn(
-        "group inline-flex items-center gap-3 rounded-full bg-zinc-900 text-zinc-100 font-light transition-all duration-300 hover:bg-zinc-800 hover:scale-105",
+        "group inline-flex border-2 border-border items-center gap-3 rounded-full bg-secondary/30 text-zinc-100 font-light transition-all duration-300 hover:bg-secondary/80 hover:scale-105",
         sizeClasses[size],
         className
       )}

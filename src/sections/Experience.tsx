@@ -4,7 +4,7 @@ import { WorkExperienceData } from "@/data/data";
 
 function Experience() {
   return (
-    <section>
+    <section id="experience">
       {/* Experience Header */}
       <Heading title="Experience" />
 
