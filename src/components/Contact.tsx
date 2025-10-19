@@ -115,7 +115,7 @@ function ContactButtons() {
 // --- Main Contact Section ---
 function Contact() {
   return (
-    <section className="border border-zinc-800 flex flex-col items-center justify-center text-center p-8 sm:p-10 lg:p-14 gap-8 rounded-lg bg-zinc-950">
+    <section className="border border-secondary flex flex-col items-center justify-center text-center p-8 sm:p-10 lg:p-14 gap-8 rounded-lg">
       <SectionDivider icon={<Users size={32} className="text-zinc-200" />} />
 
       <ContactHeader />
