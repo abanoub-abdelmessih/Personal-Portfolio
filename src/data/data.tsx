@@ -160,18 +160,8 @@ export const ProjectsData: Project[] = [
   // ShopPix Project
   {
     title: "Shoppix",
-    description: [
-      "Product browsing & detailed product pages",
-      "Cart management & checkout flow",
-      "Order tracking & management",
-      "Real-time data fetching with React Query",
-      "Responsive UI built with Tailwind CSS",
-    ],
-    images: [
-      "/assets/shoppix/shoppix.jpg",
-      "/assets/shoppix/shoppix_mac.jpg",
-      "/assets/shoppix/shoppix_phone.jpg",
-    ],
+    description:
+      "An e-commerce web application offering seamless product browsing, detailed product pages, shopping cart and checkout flow, and order tracking — built with Next.js, TypeScript, Tailwind CSS, and powered by real-time data fetching using React Query.",
     technologies: [
       "Next.js",
       "TypeScript",
@@ -186,16 +176,8 @@ export const ProjectsData: Project[] = [
   // Linked Posts Project
   {
     title: "Linked Posts",
-    description: [
-      "Create and share posts with others",
-      "Comment on posts and engage in discussions",
-      "Clean and responsive UI with Material UI",
-    ],
-    images: [
-      "/assets/linkedPosts/linkedPosts.png",
-      "/assets/linkedPosts/linkedPosts_profile.png",
-      "/assets/linkedPosts/linkedPosts_register.png",
-    ],
+    description:
+      "A social media web application that allows users to create and share posts, comment and engage in discussions, featuring a clean, modern, and fully responsive interface built with Material UI, Next.js, and TypeScript.",
     technologies: ["Next.js", "TypeScript", "MUI", "Redux", "Axios"],
     githubUrl: "https://github.com/abanoub-abdelmessih/linked-posts",
     demoUrl: "https://linked-posts-gilt.vercel.app",
@@ -203,12 +185,8 @@ export const ProjectsData: Project[] = [
   // Weather App Project
   {
     title: "Sky Cast",
-    description: [
-      "Fetches real-time weather data from an external API",
-      "Displays current conditions and 3-day forecast",
-      "Responsive and user-friendly design",
-    ],
-    images: ["/assets/skycast.png"],
+    description:
+      "A responsive weather application that fetches real-time data from an external API to display current weather conditions and a 3-day forecast through an intuitive and user-friendly interface built with HTML, CSS, and JavaScript.",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/abanoub-abdelmessih/Weather-App",
     demoUrl: "https://abanoub-abdelmessih.github.io/Weather-App/",

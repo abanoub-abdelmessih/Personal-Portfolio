@@ -9,7 +9,10 @@ import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
   return (
-    <header className="flex flex-col md:flex-row gap-10 lg:gap-16 items-center md:items-start">
+    <header
+      id="#home"
+      className="flex flex-col md:flex-row gap-10 lg:gap-16 items-center md:items-start"
+    >
       <HeroImage />
       <div className="space-y-8 md:grow">
         <HeroText />
