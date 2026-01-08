@@ -157,38 +157,56 @@ export const WorkExperienceData: ExperienceItemType[] = [
 
 // Projects
 export const ProjectsData: Project[] = [
-  // ShopPix Project
   {
-    title: "Shoppix",
+    title: "ShopPix",
     description:
-      "An e-commerce web application offering seamless product browsing, detailed product pages, shopping cart and checkout flow, and order tracking — built with Next.js, TypeScript, Tailwind CSS, and powered by real-time data fetching using React Query.",
+      "Full-featured e-commerce platform with advanced filtering, real-time search, and server-side pagination. Secure JWT authentication with HTTP-only cookies, full i18n (EN/AR) + RTL support using Next-Intl, persistent cart & wishlist, Stripe integration, and responsive UI using Tailwind & shadcn/ui. Utilizes React Query for caching and background revalidation, achieving a 95+ Lighthouse performance score.",
     technologies: [
       "Next.js",
       "TypeScript",
-      "Tailwind",
       "React Query",
-      "API",
-      "JavaScript",
+      "TailwindCSS",
+      "shadcn/ui",
+      "Next Intl",
+      "Stripe",
+      "JWT Auth",
+      "React Hook Form",
+      "Zod",
     ],
     githubUrl: "https://github.com/abanoub-abdelmessih/shoppix",
     demoUrl: "https://shop-pix.vercel.app/",
   },
-  // Linked Posts Project
   {
-    title: "Linked Posts",
+    title: "Codexa",
     description:
-      "A social media web application that allows users to create and share posts, comment and engage in discussions, featuring a clean, modern, and fully responsive interface built with Material UI, Next.js, and TypeScript.",
-    technologies: ["Next.js", "TypeScript", "MUI", "Redux", "Axios"],
-    githubUrl: "https://github.com/abanoub-abdelmessih/linked-posts",
-    demoUrl: "https://linked-posts-gilt.vercel.app",
+      "Full-stack e-learning platform with multi-role dashboards (Admin, Instructor, Student) and fully responsive UI. Instructors manage courses while students enroll, save content, and track tasks. Includes a discussion community with questions, comments, and likes. Uses Zustand for scalable state and follows collaborative Git workflows.",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Zustand",
+      "TailwindCSS",
+      "shadcn/ui",
+      "Next Intl",
+      "API",
+    ],
+    githubUrl: "https://github.com/iti-frontend/Codexa",
+    demoUrl: "https://codexa-nine.vercel.app/",
   },
-  // Weather App Project
   {
-    title: "Sky Cast",
+    title: "Quizium",
     description:
-      "A responsive weather application that fetches real-time data from an external API to display current weather conditions and a 3-day forecast through an intuitive and user-friendly interface built with HTML, CSS, and JavaScript.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    githubUrl: "https://github.com/abanoub-abdelmessih/Weather-App",
-    demoUrl: "https://abanoub-abdelmessih.github.io/Weather-App/",
+      "Role-based exam management platform (User & Admin) built with Next.js Server Components. Includes secure JWT auth with server-side authorization, protected routes, and integration with a production backend supporting full CRUD operations. Reusable UI with React Hook Form + Zod and scalable server-layer business logic.",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "JWT Auth",
+      "Server Components",
+      "React Hook Form",
+      "Zod",
+      "API",
+    ],
+    githubUrl: "https://github.com/Lumix-projects/Quizium",
+    demoUrl: "https://quizium-one.vercel.app/",
   },
 ];
